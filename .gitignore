@@ -86,3 +86,6 @@ crash.*.log
 *.pem
 *.key
 *.pub
+
+env-secret.yaml
+aws-secret.yaml
