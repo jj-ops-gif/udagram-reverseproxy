@@ -15,8 +15,8 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - name: reverseproxy
-        image: 0987432592345457/udagram-reverseproxy:v3
+      - image: 0987432592345457/udagram-reverseproxy:v3
+        name: reverseproxy
         ports:
         - containerPort: 80
         imagePullPolicy: Always  
